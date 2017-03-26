@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    >
+    <TextView
+        android:id="@+id/fee_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="3月"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/fee1_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/fee_date"
+        android:text="1号"/>
+
+    <TextView
+        android:id="@+id/fee2_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/fee_date"
+        android:layout_below="@id/fee1_item"
+        android:text="2号"/>
+
+    <TextView
+        android:id="@+id/fee3_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/fee_date"
+        android:layout_below="@id/fee2_item"
+        android:text="2号"/>
+</RelativeLayout>
